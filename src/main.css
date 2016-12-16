@@ -1,34 +1,26 @@
 /* css/styles.css */
-
-.normal {
-  /* all styles for Normal */
+.common {
   color: #fff;
   border-width: 0;
-  background-color: #4B8043;
   padding: .7rem 2.2rem;
   border-radius: 3px;
   text-transform: capitalize;
   font-weight: bold;
+}
+.normal {
+  /* all styles for Normal */
+  composes: common;
+  background-color: #4B8043;
 }
 
 .disabled {
   /* all styles for Normal */
-  color: #fff;
-  border-width: 0;
+  composes: common;
   background-color: #D8E5D5;
-  padding: .7rem 2.2rem;
-  border-radius: 3px;
-  text-transform: capitalize;
-  font-weight: bold;
 }
 
 .error {
   /* all styles for Normal */
-  color: #fff;
-  border-width: 0;
+  composes: common;
   background-color: #AC3D3D;
-  padding: .7rem 2.2rem;
-  border-radius: 3px;
-  text-transform: capitalize;
-  font-weight: bold;
 }
