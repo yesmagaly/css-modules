@@ -1,6 +1,6 @@
 /* css/styles.css */
 
-.button {
+.Button {
   /* all styles for Normal */
   color: #fff;
   border-width: 0;
@@ -11,19 +11,19 @@
   font-weight: bold;
 }
 
-.disabled {
+.Button--disabled {
   /* overrides for Disabled */
   background-color: #D8E5D5;
 
 
 }
 
-.error {
+.Button--error {
   /* overrides for Error */
   background-color: #AC3D3D;
 }
 
-.in-progress {
+.in-progress {Button
   /* overrides for In Progress */
 
 }
