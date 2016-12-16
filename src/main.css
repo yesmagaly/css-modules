@@ -1,37 +1,33 @@
 /* src/styles.css */
 
-.normal {
-  /* all styles for Normal */
+.common {
+  /* all the common styles you want */
   color: #fff;
   border-width: 0;
-  background-color: #4B8043;
   padding: .7rem 2.2rem;
   border-radius: 3px;
   text-transform: capitalize;
   font-weight: bold;
   margin: 0.2rem;
+}
+
+.normal {
+  composes: common;
+
+  /* anything that only applies to Normal */
+  background-color: #4B8043;
 }
 
 .disabled {
-  /* all styles for Disabled */
-  color: #fff;
-  border-width: 0;
+  composes: common;
+
+  /* anything that only applies to Disabled */
   background-color: #D8E5D5;
-  padding: .7rem 2.2rem;
-  border-radius: 3px;
-  text-transform: capitalize;
-  font-weight: bold;
-  margin: 0.2rem;
 }
 
 .error {
-  /* all styles for Error */
-  color: #fff;
-  border-width: 0;
+  composes: common;
+
+  /* anything that only applies to Error */
   background-color: #AC3D3D;
-  padding: .7rem 2.2rem;
-  border-radius: 3px;
-  text-transform: capitalize;
-  font-weight: bold;
-  margin: 0.2rem;
 }
