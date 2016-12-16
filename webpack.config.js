@@ -1,7 +1,5 @@
 var path = require('path')
 var ExtractTextPlugin = require("extract-text-webpack-plugin")
-var ComponentResolverPlugin = require('component-resolver-webpack')
-var webpack = require('webpack')
 
 module.exports = {
   entry: './src',
@@ -23,9 +21,6 @@ module.exports = {
     ],
   },
   plugins: [
-    new webpack.ResolverPlugin([
-      new ComponentResolverPlugin()
-    ]),
     new ExtractTextPlugin("styles.css")
   ]
 };

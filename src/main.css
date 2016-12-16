@@ -1,7 +1,34 @@
-.button {
-  background-color: red;
-  color: white;
-  border-radius: 8px;
-  padding: 1rem;
-  cursor: pointer;
+/* css/styles.css */
+
+.normal {
+  /* all styles for Normal */
+  color: #fff;
+  border-width: 0;
+  background-color: #4B8043;
+  padding: .7rem 2.2rem;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.disabled {
+  /* all styles for Normal */
+  color: #fff;
+  border-width: 0;
+  background-color: #D8E5D5;
+  padding: .7rem 2.2rem;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.error {
+  /* all styles for Normal */
+  color: #fff;
+  border-width: 0;
+  background-color: #AC3D3D;
+  padding: .7rem 2.2rem;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-weight: bold;
 }

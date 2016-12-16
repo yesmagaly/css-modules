@@ -1,5 +1,7 @@
 import styles from './main.css'
 
-const button = `<a class="${ styles.button }">Click</a>`
+const normal = `<a class="${ styles.normal }">Submit</a>`
+const disabled = `<a class="${ styles.disabled }">Submit</a>`
+const error = `<a class="${ styles.error }">Submit</a>`
 
-document.write(button)
+document.write(normal, disabled, error)
