@@ -1,5 +1,6 @@
 /* css/styles.css */
 .common {
+    /* all the common styles you want */
   color: #fff;
   border-width: 0;
   padding: .7rem 2.2rem;
@@ -8,19 +9,19 @@
   font-weight: bold;
 }
 .normal {
-  /* all styles for Normal */
   composes: common;
+  /* anything that only applies to Normal */
   background-color: #4B8043;
 }
 
 .disabled {
-  /* all styles for Normal */
   composes: common;
+  /* anything that only applies to Disabled */
   background-color: #D8E5D5;
 }
 
 .error {
-  /* all styles for Normal */
   composes: common;
+  /* anything that only applies to Error */
   background-color: #AC3D3D;
 }
