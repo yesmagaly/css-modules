@@ -1,4 +1,4 @@
-/* css/styles.css */
+/* src/styles.css */
 
 .normal {
   /* all styles for Normal */
@@ -9,10 +9,11 @@
   border-radius: 3px;
   text-transform: capitalize;
   font-weight: bold;
+  margin: 0.2rem;
 }
 
 .disabled {
-  /* all styles for Normal */
+  /* all styles for Disabled */
   color: #fff;
   border-width: 0;
   background-color: #D8E5D5;
@@ -20,10 +21,11 @@
   border-radius: 3px;
   text-transform: capitalize;
   font-weight: bold;
+  margin: 0.2rem;
 }
 
 .error {
-  /* all styles for Normal */
+  /* all styles for Error */
   color: #fff;
   border-width: 0;
   background-color: #AC3D3D;
@@ -31,4 +33,5 @@
   border-radius: 3px;
   text-transform: capitalize;
   font-weight: bold;
+  margin: 0.2rem;
 }
