@@ -1,0 +1,29 @@
+/* css/styles.css */
+
+.button {
+  /* all styles for Normal */
+  color: #fff;
+  border-width: 0;
+  background-color: #4B8043;
+  padding: .7rem 2.2rem;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.disabled {
+  /* overrides for Disabled */
+  background-color: #D8E5D5;
+
+
+}
+
+.error {
+  /* overrides for Error */
+  background-color: #AC3D3D;
+}
+
+.in-progress {
+  /* overrides for In Progress */
+
+}
